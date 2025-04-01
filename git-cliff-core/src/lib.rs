@@ -18,6 +18,8 @@ pub mod changelog;
 pub mod command;
 /// Git commit.
 pub mod commit;
+/// Commit Range
+pub mod commit_range;
 /// Config file parser.
 pub mod config;
 /// Remote contributor.
