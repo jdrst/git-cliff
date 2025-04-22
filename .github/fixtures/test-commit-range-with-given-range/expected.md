@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
-a140cef..a9d4050
 a140cef0405e0bcbfb5de44ff59e091527d91b38..a9d4050212a18f6b3bd76e2e41fbb9045d268b80
 
 ### Bug Fixes

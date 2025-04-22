@@ -1,8 +1,10 @@
 use crate::commit::commits_to_conventional_commits;
 use crate::error::Result;
-use crate::range::Range;
 use crate::{
-	commit::Commit,
+	commit::{
+		Commit,
+		Range,
+	},
 	config::Bump,
 	config::BumpType,
 };

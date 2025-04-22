@@ -67,8 +67,6 @@ following context is generated to use for templating:
   "commit_range": {
       "from": "(id of the first commit used for this release)",
       "to": "(id of the last commit used for this release)",
-      "from_short": "(short id of from)",
-      "to_short": "(short id of to)"
   },
   "previous": {
     "version": "previous release"
@@ -169,8 +167,6 @@ If [`conventional_commits`](/docs/configuration/git#conventional_commits) is set
   "commit_range": {
       "from": "(id of the first commit used for this release)",
       "to": "(id of the last commit used for this release)",
-      "from_short": "(short id of from)",
-      "to_short": "(short id of to)"
   },
   "previous": {
     "version": "previous release"

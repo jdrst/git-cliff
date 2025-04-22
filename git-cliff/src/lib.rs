@@ -21,7 +21,10 @@ use args::{
 };
 use clap::ValueEnum;
 use git_cliff_core::changelog::Changelog;
-use git_cliff_core::commit::Commit;
+use git_cliff_core::commit::{
+	Commit,
+	Range,
+};
 use git_cliff_core::config::{
 	CommitParser,
 	Config,
@@ -34,7 +37,6 @@ use git_cliff_core::error::{
 	Error,
 	Result,
 };
-use git_cliff_core::range::Range;
 use git_cliff_core::release::Release;
 use git_cliff_core::repo::Repository;
 use git_cliff_core::{
